@@ -3,4 +3,6 @@
 USER="liam"
 DIR=/home/"$USER"/baro/gpu-burn
 
-$DIR/gpu_burn 7200
+cd $DIR
+
+./gpu_burn 7200
